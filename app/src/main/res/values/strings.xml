@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TL01E119</string>
+    <string-array name="opciones">
+        <item>Hodnuras(504)</item>
+        <item>Costa Rica</item>
+        <item>Guatemala(502)</item>
+        <item>El Salvador</item>
+    </string-array>
+</resources>

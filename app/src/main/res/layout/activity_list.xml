@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityList">
+
+    <ListView
+        android:id="@+id/listadatos"
+        android:layout_width="match_parent"
+        android:layout_height="355dp" />
+
+    <Button
+        android:id="@+id/btncompartirc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartir Contacto" />
+
+    <Button
+        android:id="@+id/btnEliminarc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Contacto" />
+
+    <Button
+        android:id="@+id/btnverimagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Imagen" />
+
+    <Button
+        android:id="@+id/btnActualizarc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Contacto" />
+</LinearLayout>
